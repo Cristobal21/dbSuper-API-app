@@ -1,0 +1,12 @@
+body, html {
+    background-color: #eee;
+}
+
+.title-pj {
+    justify-content: center;
+}
+
+.img-styles {
+    height: 400px;
+    width: auto;
+}
