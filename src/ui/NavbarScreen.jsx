@@ -13,10 +13,9 @@ export const NavbarScreen = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <NavLink to="home"       className="navbar-screen nav-link">Home</NavLink>
               <NavLink to="characters" className="navbar-screen nav-link">Personajes</NavLink>
-              <NavLink to="heroes"     className="navbar-screen nav-link">Heroes</NavLink>
-              <NavLink to="villians"   className="navbar-screen nav-link">Villanos</NavLink>
+              <NavLink to="angels" className="navbar-screen nav-link">Ángeles</NavLink>
+              <NavLink to="gods" className="navbar-screen nav-link">Dioses</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

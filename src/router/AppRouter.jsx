@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom"
-import { Characters, Heroes, Home, Villians } from "../pages"
+import { Angeles, Characters, Dioses, Home } from "../pages"
+import { ErrorPage } from "../pages/ErrorPage"
 
 export const AppRouter = () => {
   return (
@@ -7,8 +8,9 @@ export const AppRouter = () => {
         <Routes>
             <Route path="/" element={ <Home/> } />
             <Route path="characters" element={ <Characters/> } />
-            <Route path="heroes" element={ <Heroes/> } />
-            <Route path="villians" element={ <Villians/> } />
+            <Route path="angels" element={ <Angeles/> } />
+            <Route path="gods" element={ <Dioses/> } />
+            <Route path="error" element={ <ErrorPage/> } />
             <Route path="/*" element={ <Navigate to="/" /> } />
         </Routes>
     </>

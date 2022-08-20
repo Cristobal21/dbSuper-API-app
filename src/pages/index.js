@@ -1,6 +1,6 @@
 
 
-export * from './Home'
 export * from './Characters'
-export * from './Villians'
-export * from './Heroes'
+export * from './Dioses'
+export * from './Angeles'
+export * from './Home'

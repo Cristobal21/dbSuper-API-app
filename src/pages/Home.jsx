@@ -1,11 +1,32 @@
+import { useState } from "react"
 import { Container, Row } from "react-bootstrap"
+import { CharacterSearch } from "../components/CharacterSearch"
+import { Search } from "../components/Search"
 
 export const Home = () => {
+
+  const [character, setCharacter] = useState(['Gohan'])
+
+  const onAddCharacter = (newCharacter) => {
+    setCharacter([newCharacter])
+  }
+
   return (
     <Container>
-        <Row>
-            <h1>Home Screen</h1>
-        </Row>
+      <Row>
+        <Search
+          onNewCharacter={onAddCharacter}
+        />
+      </Row>
+      <Row>
+        {
+          character.map(data => (
+            <CharacterSearch key={data}
+              name={data}
+            />
+          ))
+        }
+      </Row>
     </Container>
   )
 }

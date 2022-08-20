@@ -1,10 +1,11 @@
 import { Container, Row } from "react-bootstrap"
+import { Angels } from "../components/Angels"
 
-export const Heroes = () => {
+export const Angeles = () => {
     return (
         <Container>
             <Row>
-                <h1>Heroes Screen</h1>
+                <Angels/>
             </Row>
         </Container>
     )

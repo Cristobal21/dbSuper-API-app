@@ -1,10 +1,11 @@
 import { Container, Row } from "react-bootstrap"
+import { Gods } from "../components/Gods"
 
-export const Villians = () => {
+export const Dioses = () => {
     return (
         <Container>
             <Row>
-                <h1>Villians Screen</h1>
+                <Gods/>
             </Row>
         </Container>
     )
