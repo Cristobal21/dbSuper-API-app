@@ -9,6 +9,8 @@ body, html {
 .img-styles {
     height: 400px;
     width: auto;
+    border-radius: 0px;
+    border-style: none;
 }
 
 .button-info {
@@ -44,4 +46,9 @@ body, html {
 .col-characters {
     max-width: 100%;
     width: 100%;
+}
+
+.accordion-characters {
+    border-radius: 0px;
+    border-style: none;
 }

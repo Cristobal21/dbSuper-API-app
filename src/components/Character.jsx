@@ -8,8 +8,8 @@ export const Character = ({ id, nombre, img, origen, rol, especie, estado, trans
                 <Col className="col-characters">
                     <Card className="mb-5" border="secondary" text="secondary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={ img } className="img-styles img-thumbnail" />
-                        <Accordion className="accordion-characters">
-                            <Accordion.Item eventKey="0">
+                        <Accordion >
+                            <Accordion.Item eventKey="0" className="accordion-characters">
                                 <Accordion.Header>
                                     <Card.Title>{nombre}</Card.Title>
                                 </Accordion.Header>

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Container, Form } from "react-bootstrap"
+import { Container, Form, Row } from "react-bootstrap"
 // import { useNavigate } from "react-router-dom"
 // import { useFetchAllCharacters } from "../hooks/useFetchAllCharacters"
 
@@ -34,19 +34,20 @@ export const Search = ({ onNewCharacter }) => {
     }
 
     return (
-        <Container className="d-flex justify-content-center">
-            <Form onSubmit={onSubmit} aria-label="form" className="mt-5 form-input">
-                <Form.Group>
-                    <Form.Control
-                        type="text"
-                        placeholder="Busca un personaje"
-                        value={inputValue}
-                        onChange={onInputChange}
-                        size="lg"
-                    />
-                </Form.Group>
-            </Form>
-
+        <Container className="d-flex justify-content-center mb-5" >
+            <Row>
+                <Form onSubmit={onSubmit} aria-label="form" className="mt-5 form-input">
+                    <Form.Group>
+                        <Form.Control
+                            type="text"
+                            placeholder="Busca un personaje"
+                            value={inputValue}
+                            onChange={onInputChange}
+                            size="lg"
+                        />
+                    </Form.Group>
+                </Form>
+            </Row>
         </Container>
     )
 }

@@ -13,12 +13,12 @@ export const Home = () => {
 
   return (
     <Container>
-      <Row>
+      <Row >
         <Search
           onNewCharacter={onAddCharacter}
         />
       </Row>
-      <Row>
+      <Row >
         {
           character.map(data => (
             <CharacterSearch key={data}
