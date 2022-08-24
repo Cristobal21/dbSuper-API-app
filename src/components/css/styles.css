@@ -1,5 +1,6 @@
-body, html {
-    background-color: #eee;
+body,
+html {
+    background-color: #fafafa;
 }
 
 .title-pj {
@@ -7,10 +8,14 @@ body, html {
 }
 
 .img-styles {
-    height: 400px;
+    height: 350px;
     width: auto;
     border-radius: 0px;
     border-style: none;
+}
+
+.img-styles:hover {
+    background: #eee;
 }
 
 .button-info {
@@ -18,7 +23,7 @@ body, html {
     width: 100%;
 }
 
-.container-button{
+.container-button {
     max-width: 100%;
     width: 100%;
     margin: 0;
@@ -34,7 +39,7 @@ body, html {
 }
 
 .card-img {
-    max-width: 100%;   
+    max-width: 100%;
     width: 30rem;
 }
 
@@ -51,4 +56,41 @@ body, html {
 .accordion-characters {
     border-radius: 0px;
     border-style: none;
+}
+
+.card-img-angel {
+    border: 2px solid;
+}
+
+.card-img-angel:hover {
+    cursor: pointer;
+}
+
+.card-header:hover {
+    background: #eee;
+}
+
+.row-grid {
+    justify-content: center;
+}
+
+.card-modal {
+    border: 0px;
+}
+
+.img-modal {
+    border: 0px;
+}
+
+.modal-title-angel{
+    background-color: orangered;
+}
+
+.nombre-title-modal {
+    color: #fafafa;
+}
+
+.popover-angels {
+    background-color: #fafafa;
+    width: 200px;
 }
